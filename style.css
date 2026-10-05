@@ -203,36 +203,6 @@ p { margin: 0 0 1em; color: var(--ink-soft); }
   max-width: 46ch;
   font-size: 1.05rem;
 }
-
-.hero-actions {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem;
-  margin-top: 1.5rem;
-}
-
-.btn {
-  display: inline-block;
-  font-family: var(--font-body);
-  font-weight: 500;
-  font-size: 0.95rem;
-  padding: 0.75rem 1.4rem;
-  border-radius: 3px;
-  text-decoration: none;
-  border: 1px solid transparent;
-}
-.btn-primary {
-  background: var(--amber);
-  color: var(--ink);
-  border-color: var(--amber);
-}
-.btn-primary:hover { background: var(--amber-dark); color: var(--paper); }
-.btn-ghost {
-  color: var(--ink);
-  border-color: var(--ink);
-}
-.btn-ghost:hover { background: var(--ink); color: var(--paper); }
-
 /* ---------------------------------------------------
    About
 --------------------------------------------------- */
